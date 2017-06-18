@@ -4,123 +4,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Eliane Et Franklin</title>
 	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400i|Meddon" rel="stylesheet">
-	<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
 <style type="text/css">
 
-	/*Center stuff in navbar
-		green: #5cbf65 ;
-		brown: #e9baa3;
-		compliment: #dad188;
-		font-family: BRUSH SCRIPT MT ITALIC;
-		sec font: baskerville Reg;
-	*/
-	body, html{
-		font-family: 'Libre Baskerville', serif;
-		font-family: 'Meddon', cursive;
-	}
-	body{
-
-	}
-	.navbar-nav {
-    	float:none;
-    	margin:0 auto;
-    	display: block;
-    	text-align: center;
-	}
-	.navbar-nav > li {
-	    display: inline-block;
-	    float:none;
-	}
-	.navbar-default {
-		background-color: #e9baa3;
-		border-color: #dad188;
-	}
-	.navbar-default .navbar-brand:hover,
-	.navbar-default .navbar-brand:focus {
-	    color: #5E5E5E;
-	    background-color: #dad188;
-	}
-	.navbar-default .navbar-nav > .active > a,
-	.navbar-default .navbar-nav > .active > a:hover,
-	.navbar-default .navbar-nav > .active > a:focus {
-	    color: #555;
-	    background-color: #5cbf65;
-	}
-/* Title */
-/*	.navbar-default .navbar-brand {
-    color: #777;
-}
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-    color: #5E5E5E;
-}
-/* Link */
-/*	.navbar-default .navbar-nav > li > a {
-    color: #777;
-}
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-    color: #333;
-}
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-    color: #555;
-    background-color: #E7E7E7;
-}
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-    color: #555;
-    background-color: #D5D5D5;
-}
-/* Caret */
-/*	.navbar-default .navbar-nav > .dropdown > a .caret {
-    border-top-color: #777;
-    border-bottom-color: #777;
-}
-.navbar-default .navbar-nav > .dropdown > a:hover .caret,
-.navbar-default .navbar-nav > .dropdown > a:focus .caret {
-    border-top-color: #333;
-    border-bottom-color: #333;
-}
-.navbar-default .navbar-nav > .open > a .caret,
-.navbar-default .navbar-nav > .open > a:hover .caret,
-.navbar-default .navbar-nav > .open > a:focus .caret {
-    border-top-color: #555;
-    border-bottom-color: #555;
-}
-/* Mobile version */
-/*	.navbar-default .navbar-toggle {
-    border-color: #DDD;
-}
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-    background-color: #DDD;
-}
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #CCC;
-}
-@media (max-width: 767px) {
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-        color: #777;
-    }
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-          color: #333;
-    }
-}*/
 </style>
 </head>
-<body data-spy="scroll" data-target="#bs-example-navbar-collapse-1">
+<body data-spy="scroll" data-target="#main-navbar-home">
 	<div class="container">
 		<nav class="navbar navbar-default navbar-fixed-top" style="margin: 20px;border-radius: 0px;">
 		  <div class="container-fluid">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar-home" aria-expanded="false">
 		        <span class="sr-only">Toggle navigation</span>
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
@@ -129,13 +26,13 @@
 		    </div>
 
 		    <!-- Collect the nav links, forms, and other content for toggling -->
-		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		    <div class="collapse navbar-collapse" id="main-navbar-home">
 		      <ul class="nav navbar-nav">
-		        <li class="active"><a href="#marriage">Marriage <span class="sr-only">(current)</span></a></li>
-		        <li><a href="#history">Notre Histoire</a></li>
-		        <li><a href="#program">Programme</a></li>
-		        <li><a href="#location">Lieu</a></li>
-		        <li><a href="#pictures">Photos</a></li>
+		        <li class="active"><a href="#marriage"><i class="fa fa-gratipay" aria-hidden="true"></i> Marriage <span class="sr-only">(current)</span></a></li>
+		        <li><a href="#history"><i class="fa fa-history" aria-hidden="true"></i> Notre Histoire</a></li>
+		        <li><a href="#program"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> Programme</a></li>
+		        <li><a href="#location"><i class="fa fa-globe" aria-hidden="true"></i> Lieu</a></li>
+		        <li><a href="#pictures"><i class="fa fa-camera" aria-hidden="true"></i> Photos</a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
@@ -143,19 +40,19 @@
 		<div class="row" id="marriage">
 			<div class="col-sm-12 center-block">
 				<div class="thumbnail center-block">
-			      <img src="hotel.jpg" class="img-responsive" alt="..." width="100%">
-			      <div class="caption" style="text-align: center;">
-			        <h3>Eliane E Franklin</h3>
-			        <p style="font-family:'Libre Baskerville'">Samedi, 23 September 2017, 15h00 RSVP </p>
-			        <p style="font-family:'Libre Baskerville'">95, de Montmorency, Bromont Qc J2L 2J1</p>
-			         <p style="font-family:'Libre Baskerville'">100 Days to go!</p>
-			      </div>
-			    </div>
+					<img src="hotel.jpg" class="img-responsive" width="100%">
+					<div class="caption" style="text-align: center;">
+					<h3> <i class="fa fa-heart" aria-hidden="true"></i> Eliane E Franklin <i class="fa fa-heart" aria-hidden="true"></i> </h3>
+					<p class="simple-font"> <i class="fa fa-map-marker" aria-hidden="true"></i> Samedi, 23 September 2017, 15h00 RSVP </p>
+					<p class="simple-font"> <i class="fa fa-location-arrow" aria-hidden="true"></i> 95, de Montmorency, Bromont Qc J2L 2J1</p>
+						<p style="font-family:'Libre Baskerville'"> <i class="fa fa-clock-o" aria-hidden="true"></i> <span id="numberOfDays"></span> Days to go!</p>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div id="history" class="row center-block">
 			<div class="col-sm-12" style="text-align:center;">
-				<h2>Notre Histoire</h2>
+				<h2> <i class="fa fa-history" aria-hidden="true"></i> Notre Histoire</h2>
 			</div>
 			<div class="col-sm-12">
 				<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
@@ -166,7 +63,7 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
 		</div>
 		<div id="program" class="row">
 			<div class="col-sm-12" style="text-align:center;">
-				<h2>Notre Marriage</h2>
+				<h2> <i class="fa fa-heart-o" aria-hidden="true"></i> Notre Marriage</h2>
 				<p style="font-family:'Libre Baskerville'">Samedi, 23 September 2017, 15h00 RSVP </p>
 			        <p style="font-family:'Libre Baskerville'">95, de Montmorency, Bromont Qc J2L 2J1</p>
 			         <p style="font-family:'Libre Baskerville'">100 Days to go!</p>
@@ -177,16 +74,24 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
 			</div>
 		</div>
-		<div id="location" class="row">
-			<h1>Lieu</h1>
+		<div id="location" class="row center-block">
+			<div class="col-sm-12" style="text-align:center;">
+				<h1> <i class="fa fa-globe" aria-hidden="true"></i> Lieu</h1>
+			</div>
+			
 			<div class="col-sm-12">
 				<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
 
 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
 			</div>
+			<div>
+				<div id="map-container" class="col-md-12"></div>
+			</div>
 		</div>
-		<div id="pictures" class="row">
-			<h1>Photos</h1>
+		<div id="pictures" class="row center-block">
+			<div class="col-sm-12" style="text-align:center;">
+				<h1> <i class="fa fa-camera" aria-hidden="true"></i> Photos</h1>
+			</div>
 			<div class="col-sm-12">
 				<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
 
@@ -198,7 +103,31 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript">
-	$('body').scrollspy({ target: '#bs-example-navbar-collapse-1' });
+	$('body').scrollspy({ target: '#main-navbar-home' });
+	function init_map() {
+		var var_location = new google.maps.LatLng(45.31361,-72.64062);
+		var var_mapoptions = {
+			center: var_location,
+			zoom: 16
+		};
+		var var_marker = new google.maps.Marker({
+			position: var_location,
+			map: var_map,
+			title:"Venice"
+		});
+		var var_map = new google.maps.Map(document.getElementById("map-container"),
+		var_mapoptions);
+		var_marker.setMap(var_map);	
+	}
+	google.maps.event.addDomListener(window, 'load', init_map);
 </script>
+<script src="difference-days.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$( document ).ready(function() {
+		$('#numberOfDays').text(fnGetDiffDays());
+	});
+</script>
+
 </html>
